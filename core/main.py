@@ -27,8 +27,9 @@ def setup():
     headers_file = {
         'X-Dataverse-key': config.DATAVERSE_API_TOKEN,
     }
-    templateLoader = jinja2.FileSystemLoader(searchpath="../resources/templates")
+    templateLoader = jinja2.FileSystemLoader(searchpath="./resources/templates")
     templateEnv = jinja2.Environment(loader=templateLoader)
+    print(config.DATASET_JSON_TEMPLATE)
     dataset_json_template = templateEnv.get_template(config.DATASET_JSON_TEMPLATE)
     file_json_template = templateEnv.get_template(config.FILE_JSON_TEMPLATE)
     configs = Properties()
