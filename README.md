@@ -1,6 +1,12 @@
-# common-migrations
-Common migration pipelines to Dataverse data repository
+# Common Dataverse Migrations
+DANS migration pipelines from any input format to Dataverse data repository
 
+# Developed by DANS R&D group in the context of external projects:
+- Eko Indarto (DCCD project)
+- Vic Ding (ODISSEI project)
+- Slava Tykhonov (CLARIAH project)
+
+# Installation 
 
 Install poetry using brew: brew install poetry
 
