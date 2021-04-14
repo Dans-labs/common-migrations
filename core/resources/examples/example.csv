@@ -1,0 +1,2 @@
+title,identifier,sid,state,permission,organization,lat,lng,firstYear,lastYear,taxon,objectType,elementType,investigator,language,category,UserLastname,userInitials,userEmail,userId
+"CH, Co. Amsterdam",Klc House,dccd:4742,PUBLISHED,values,Quebec Univ,12.456,-9.098,8768,9887,Curques,House,,Lian McDonald,en,built in plug,Blue,K. M.,k.blue@example.uk,King

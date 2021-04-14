@@ -1,0 +1,88 @@
+{
+  "datasetVersion": {
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "{{title|replace('\"', '\\"')}}"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "{{author_lastname}}, {{author_initials}}"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "{{organization_name}}"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "{{datasetContactName}}"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "{{organization_name}}"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "{{datasetContactEmail}}"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "Dendrochronological project"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

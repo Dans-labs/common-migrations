@@ -1,0 +1,6 @@
+{
+    "description": "No FILE description.",
+    "directoryLabel": "{{ directory_label }}",
+    "categories": ["Data"],
+    "restrict": "false"
+}
